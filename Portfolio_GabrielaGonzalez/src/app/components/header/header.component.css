@@ -1,8 +1,19 @@
 div {
 	background-color: blueviolet;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 }
 
 app-social {
-	float: right;
-	margin-top: 25px;
+	display: flex;
+	align-items: center;
+	align-content: flex-end;
+}
+
+app-banner {
+	position: absolute;
+	display: block;
+	bottom: 3px;
+	left: 25px;
 }
