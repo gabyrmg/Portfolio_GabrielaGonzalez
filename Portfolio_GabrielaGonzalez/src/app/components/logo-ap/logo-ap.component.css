@@ -1,4 +1,5 @@
-#logoAp {
-   width: 150px;
-    
+img {
+    width: 150px;
+    color: white;
+    display: flex;
 }
