@@ -5,7 +5,23 @@ div {
 	align-items: center;
 }
 
-app-social {
+#logo img{
+	width: 150px;
+    color: white;
+    display: flex;
+}
+
+#social img {
+	width: 40px;
+    /*margin-right: 10px;*/
+}
+
+#banner img{
+	width: 1300px;
+    height: 500px;
+}
+
+/*app-social {
 	display: flex;
 	align-items: center;
 	align-content: flex-end;
@@ -17,3 +33,4 @@ app-banner {
 	bottom: 3px;
 	left: 25px;
 }
+*/
