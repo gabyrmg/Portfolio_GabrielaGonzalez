@@ -1,0 +1,41 @@
+.row {
+    padding: 10px;
+
+}
+
+div {
+    background-color: blueviolet;
+    text-align: center;
+    color:white;
+}
+
+/*========================= MEDIA QUERY PANTALLA GRANDE ===================================*/
+
+@media (min-width:576px) {
+    #foto-perfil{
+        position:absolute;
+        width: 15%;
+        border-radius: 100%;
+        box-shadow: 3px 3px 3px gray;
+        left:2%;
+        top: 500px;
+    }
+    
+}
+
+/*========================= MEDIA QUERY PANTALLA CHICA ===================================*/
+@media (max-width:575px) {
+    #foto-perfil{
+        position:absolute;
+        width: 30%;
+        border-radius: 100%;
+        box-shadow: 3px 3px 3px gray;
+        left:33%;
+        top: 630px;
+    }
+}
+/*=======================================================================================*/
+#nombre-titulo p {
+    font-weight: bold;
+    margin-top: 10px;
+}

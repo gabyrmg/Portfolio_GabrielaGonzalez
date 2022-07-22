@@ -1,7 +1,6 @@
 div {
 	background-color: blueviolet;
 	display: flex;
-	justify-content: space-between;
 	align-items: center;
 }
 
@@ -9,11 +8,26 @@ div {
 	width: 150px;
     color: white;
     display: flex;
+	justify-content: center;
+	
+}
+
+#texto-logo{
+	justify-content: left;
+	color: white;
+}
+
+#social {
+	justify-content: right;
 }
 
 #social img {
 	width: 40px;
-    /*margin-right: 10px;*/
+    margin-right: 10px;	
+}
+
+#boton-login {
+	justify-content: center;
 }
 
 #banner img{
