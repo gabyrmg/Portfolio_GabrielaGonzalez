@@ -1,32 +1,39 @@
-div {
+.header-superior {
 	background-color: blueviolet;
 	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+#logo {
+	margin-left: 10px;
 	align-items: center;
 }
 
 #logo img{
-	width: 150px;
+	height: 100px;
     color: white;
-    display: flex;
-	justify-content: center;
-	
+	vertical-align: middle;
 }
 
-#texto-logo{
-	justify-content: left;
+#logo h4 {
+	display: inline;
 	color: white;
+	text-align: left;
+	vertical-align: middle;
 }
 
-#social {
-	justify-content: right;
+#social-login {
+	margin-right: 25px;
 }
 
-#social img {
-	width: 40px;
+#social-login img {
+	height: 40px;
     margin-right: 10px;	
 }
 
-#boton-login {
+#banner{
+	display: flex;
 	justify-content: center;
 }
 
@@ -35,3 +42,20 @@ div {
     height: 500px;
 }
 
+/*================================= MEDIA QUERY PARA PANTALLA CHICAS ==================================================*/
+@media(max-width:755px){
+	.header-superior {
+		flex-direction: column;
+	}
+
+	#social-login {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		margin: 10px;
+	}
+
+	#social-login img {
+		margin: 5px;
+	}
+}
